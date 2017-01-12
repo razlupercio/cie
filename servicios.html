@@ -1,0 +1,403 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="kickstart.js"></script> <!-- KICKSTART -->
+        <link rel="stylesheet" href="kickstart.css" media="all" /> <!-- KICKSTART -->
+        <link rel="stylesheet" href="style.css" media="all" /> 
+        <link rel="stylesheet" href="http://complejoindustrial.com/css/thumbs_.css" media="all" /> 
+        <link rel="stylesheet" href="touchTouch.css" media="all" /> 
+        <title>Complejo Industrial Estrada</title>
+        <!--        <link rel="stylesheet" type="text/css" href="css/style.css">-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <!-- bxSlider Javascript file -->
+        <script src="jquery.bxslider.min.js"></script>
+        <script src="touchTouch.jquery.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="jquery.bxslider.css" rel="stylesheet" />
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.bxslider').bxSlider({
+                    ticker: true,
+                    tickerHover: true,
+                    speed: 100000,
+                    useCSS: false,
+                    captions: true
+                });
+            });
+        </script>
+        <!-- galería de servicios -->
+        <script>
+            function setContenido(n) {
+                var menus = document.getElementById('menu').getElementsByTagName('a');
+                var contents = document.getElementById('contenidos').getElementsByTagName('div');
+                for (var i = 0; i < 9; i++) {
+                    menus[i].className = '';
+                    contents[i].style.display = 'none';
+                }
+
+                menus[n].className = 'actual';
+                contents[n].style.display = 'block';
+            }
+        </script>
+        <script type="text/javascript">
+            $(function() {
+                // Initialize the thumbs
+                $('.thumbs a').touchTouch();
+            });
+        </script>
+    </head>
+    <body><a id="top-of-page"></a> <div id="wrap" class="clearfix">
+            <ul class="bxslider">
+                <li><img src="cabecera.jpg" alt="Css Template Preview" title="INSTALACIONES" height="100"  /></a></li>
+                <li><a href="productos.html"><img src="sliderhome/image058.gif" alt="Css Template Preview" title="PRODUCTOS" height="100"/></a></li>
+                <li><a href="http://www.protecva.com"><img src="LogoTECVA.png" alt="Css Template Preview" title="PROTECVA" height="100"/></a></li>
+                <li><a href="mision.html"><img src="sloganCIE.png" alt="Css Template Preview" title="NOSOTROS" height="100"/></a></li>
+            </ul>
+            <!-- NOMBREEMPRESA -->
+            <div class="col_12">
+                <div class="headline">
+                    <h4 class='center'>
+                        <img class="align-left" src="ISO.png" width="100" height="100" />
+                        <img class="align-right" src="CIE.png" width="200" height="100" />
+                        <br>
+                        Complejo Industrial Estrada S.A. de C.V.
+                    </h4>
+                </div>
+            </div>
+            <!-- END NOMBREEMPRESA  --> 
+
+
+            <!-- Menu Horizontal -->
+            <ul class="menu center">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="certificacion.html">Certificación</a></li>
+                <li class="current"><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
+                    <li><a href="bolsa.php">Bolsa de Trabajo</a></li>
+            </ul>
+            <!-- END Menu Horizontal -->
+
+            <div class="col_12">
+
+                <!-- END Menu Horizontal -->
+                <div class="col_3">
+                    <br>
+                    <br>
+                    <h5 class="center">
+                        <i class="icon-phone"> (449) 971-12-33</i><br>
+                        <i class="icon-phone"> (449) 971-19-59</i><br>
+                        VENTAS Ext 107 y 104
+                    </h5>
+                    <br>
+
+                    <ul id="menu" class="menu vertical center">
+                        <li><a href="JavaScript:;" onmouseover="setContenido(0)" onclick="setContenido(0);">Instalaciones</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(1)" onclick="setContenido(1);">Corte láser</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(2)" onclick="setContenido(2);">Aseguramiento de Calidad</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(3)" onclick="setContenido(3);">Doblez</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(4)" onclick="setContenido(4);">Punzonado</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(5)" onclick="setContenido(5);">Acabado</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(6)" onclick="setContenido(6);">Troquelado</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(7)" onclick="setContenido(7);">Ensamblado</a></li>
+                        <li><a href="JavaScript:;" onmouseover="setContenido(8)" onclick="setContenido(10);">Maquinado</a></li>
+                    </ul>
+                    <br>
+                    <a href="contacto.php" class="center"><button class="red center">Asesoría</button></a>
+                    <a href="cotizar.php"><button class="red">Cotizar</button></a>
+
+                </div>
+                <!-- END Menu Horizontal -->
+
+                <div class="col_8 center">
+                    <!-- thumbs -->
+                    <!-- 
+    /-------------------------------------------------------------//
+    /                                                             //
+    /          Servicios                                          //
+    /                                                             //        
+    /------------------------------------------------------------//
+                    -->
+                    <br>
+                    <br>
+                    <div id="contenidos">
+                        <div id="srv" class="thumbs hide">
+
+                            <!-- -------------------INSTALACIONES--------------------- -->
+
+                            <h5 class="center">Instalaciones</h5><br>
+
+                            <p class="left">Nuestra industria se conforma de la siguiente manera:</p>
+
+                            <p class="left">Oficinas corporativas que atienden al mercado doméstico nacional así como al mercado internacional (OEM`s.)</p>
+                            <h5 class="center">Planta I, CIE, Aguascalientes</h5><br>
+                            <p class="left">
+                                &#8226;Cuenta con una superficie en terreno de 11,940 mts2.<br>
+                                &#8226;Nave industrial de 2,400 mts2.<br>
+                                &#8226;Línea de pintura de 1,200 mts2.<br>
+                                &#8226;Bodega y sala de capacitación 110 mts2.<br>
+                                &#8226;Oficinas 220 mts2  / Estacionamiento y Caseta de Vigilancia<br>
+                                <br>
+                            <center id="tituloservicio">
+                                <a id="centrar" href="inst1.jpg" title=""><img src="inst1.jpg"  width="250" height="150"></a>
+                                <a id="centrar" href="inst1a.jpg" title=""><img src="inst1a.jpg" width="250" height="150"></a>
+                            </center>
+                            <br>
+                            <h5 class="center">Planta II, PROTECVA, Querétaro</h5>
+                            <p class="left">
+                                &#8226;Protecva cuenta con una superficie en terreno de 2,500 mts2.<br>
+                                &#8226;Una nave industrial de 1,500 mts2.<br>
+                                &#8226;Oficinas de 400 mts2.<br>
+                            </p> 
+                            <center>
+                                <a id="centrar" href="inst2.jpg" title=""><img src="inst2.jpg" width="250" height="150"></a>
+                                <a id="centrar" href="inst4.jpg" title=""><img src="inst4.jpg" width="250" height="150"></a>
+                            </center>
+                        </div>
+                        <!----------- END INSTALACIONES --------->
+
+
+                        <!-- ------------CORTE LASER---------->
+                        <div id="srv" class="thumbs hide">
+                            <h5 class="center">Corte Láser</h5>
+                            <h5>MAQUINA LASER FO – 3015NT</h5>
+                            <ul class="left">
+                                <li>Programación mediante Software CAD / CAM.</li>
+                                <li>Lenguaje de programación FANUC.</li>
+                                <li>Operación mediante código CNC.</li>
+                                <li>Capacidad de láser de 4000 WTS FO - 3015 GEMINI.</li>
+                                <li>Zona de trabajo 61” X 121”.</li>
+                                <li>Corte hasta ¾ de espesor en acero comercial.</li>
+                                <li>Corte hasta ⅜ en acero inoxidable.</li>
+                                <li>Corte hasta ⅜ en aluminio.</li>
+                                <li>Exactitud + 0.0001’’.</li>
+                                <li>Velocidad máxima de la mesa 2,150 LPM por eje (4,454 LP, 45º vector).</li>
+                            </ul>
+                            <a href="laser1.jpg"><img src="laser1.jpg" width="250" height="150"></a><br>
+                            <br>
+                            <br>
+                            <a href="laser2.jpg"><img src="laser2.jpg" width="250" height="150"></a><br>
+                            <br>
+                            <br>
+                            <h5>Productos</h5>
+                            <br>
+                            <a href="laser3.jpg"><img src="laser3.jpg" width="200" height="100" /></a>
+                            <a href="laser4.jpg"><img src="laser4.jpg" width="200" height="100" /></a><br><br>
+                            <a href="laser5.jpg"><img src="laser5.jpg" width="200" height="100" /></a>
+                            <a href="laser6.jpg"><img src="laser6.jpg" width="200" height="100" /></a>
+                            <br>
+                            <br>
+                            <br>
+                        </div> 
+                        <div class="thumbs hide">
+                            <!--------------------------- 
+                                Calidad
+                             -------------------------- -->
+                            <h5>Aseguramiento de Calidad</h5>
+                            <p class="left">Contamos con un bien equipado laboratorio de Aseguramiento de calidad, 
+                                con el estado de la técnica de medición por coordenadas, máquinas y aparatos
+                                de medición óptica que garantizan nuestro compromiso con la precisión y 
+                                calidad de productos de metal.</p>
+
+                            <p class="left">Nuestro departamento de control de calidad funciona con equipos de última generación
+                                y personal altamente calificado. Que supervisa constantemente todas las fases del 
+                                proceso de fabricación, asegurando que las más altas y rigurosas normas de la industria 
+                                se cumplan.</p>
+                            <a href="img/calidad1.jpg" class="caption" title="MESA DE CORDENADAS MARCA BROWN & SHARP CON TECNOLOGIA CMM.
+                               ANGULOS RADIOS , GRADOS ALTURAS, DISTANCIAS, DIAMETROS</p>"><img  src="calidad1.jpg" width="100" height="100"/></a>
+                            <a href="calidad2.jpg" class="caption" title="ZONA DE TRABAJO 61” X 121” CORTE HASTA 3/4 DE ESPESOR"><img src="calidad2.jpg" width="100" height="100" /></a>
+                            <a href="calidad3.jpg" class="caption" title="COMPARADOR OPTICO MARCA MITUTOYO MODELO PH-R14. RESOLUCION HASTA .00001”"><img src="calidad3.jpg" width="100" height="100" /></a>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+
+                        <div class="thumbs hide">
+                            <h5>Doblez CNC</h5><br>
+                            <p class="left">
+                                Estamos equipados con diversidad de dobladoras CNC para diferentes calibres y longitudes.
+                            </p>
+                            <p class="left">
+                                Nuestros equipos alcanzan una presión de 350 Ton en un rango de 12’. Con una precisión de 0.05 mm, 9 ejes en 3.05 mts.
+                                Tenemos la posibilidad de doblar piezas de volúmenes grandes o piezas muy pequeñas.
+                            </p>
+                            <h5>Equipo</h5>
+                            <a href="doblez01.jpg"><img src="doblez01.jpg" width="200"></li></a>
+                            <a href="doblez02.jpg"><img src="doblez02.jpg" width="200"></li></a>
+                            <a href="doblez03.jpg"><img src="doblez03.jpg" width="200"></li><br></a>
+                            <a href="doblez04.jpg"><img src="doblez04.jpg" width="200"></li></a>
+                            <a href="doblez05.jpg"><img src="doblez05.jpg" width="200"></li></a>
+                            <a href="doblez06.jpg"><img src="doblez06.jpg" width="200"></li></a><br>
+                            <h5>Productos</h5>
+                            <a href="prod4.jpg"><img src="prod4.jpg" width="200"></li></a>
+                            <a href="prod8.jpg"><img src="prod8.jpg" width="200"></li></a>
+                            <a href="prod9.jpg"><img src="prod9.jpg" width="200"></li></a><br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+
+                        <!--        PUNZONADO          -->
+
+                        <div class="thumbs hide">
+                            <h5>Punzonado CNC</h5><br>
+                            <p class="left">Contamos con variedad de punzonadoras en nuestras líneas de producción, algunas de nuestras punzonadoras cuentan con auto index en las que podemos trabajar espesores de lámina de 0.187’’ hasta 0.250’’, pueden ejercer 50 Ton de impacto y tienen una precisión de 0.001’’ de agujero - agujero.</p>
+                            <a href="PunzonadoCNC-1.png"><img src="PunzonadoCNC-1.png"></a><br>
+                            <br>
+                            <table cellspacing="0" cellpadding="0" class="striped">
+                                <tbody>
+                                    <tr><td colspan="2"><b>PUNZONADORA AMADA COMA 557</b></td></tr>
+                                    <tr>
+                                        <td><a href="PunzonadoCNC-3.png"><img src="PunzonadoCNC-3.png"></a></td>
+                                        <td><ul>
+                                                <li>Capacidad de punzonado, 50 TON.</li>
+                                                <li>Mesa de  50” X 72”  </li>
+                                                <li>Espesor máximo de 0.250”</li>
+                                                <li>Precisión 0.001”, Agujero - Agujero.</li>
+                                                <li>Velocidad de mesa a 2.150 IPM.</li>
+                                                <li>Torreta de 72 estaciones.</li>
+                                            </ul>    
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><b>PUNZONADORA AMADA COMA 557 CON AUTOINDEX</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>Capacidad de punzonado, 50 TON</li>
+                                                <li>Mesa de  50” X 72”  </li>
+                                                <li>Espesor máximo de 0.250”</li>
+                                                <li>Precisión 0.001”, Agujero - Agujero.</li>
+                                                <li>Velocidad de mesa a 2.150 IPM.</li>
+                                                <li>Torreta de 58 estaciones.</li>
+                                                <li>2 Autoindex</li>
+                                            </ul>
+                                        </td>
+                                        <td><a href="Punzonado_02.jpg"><img src="Punzonado_02.jpg" width="300"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><b>PUNZONADORA AMADA PEGA 357 CON AUTOINDEX</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="PunzonadoCNC-2.png"><img src="PunzonadoCNC-2.png"></a></td>
+                                        <td>
+                                            <ul>
+                                                <li>Capacidad de punzonado, 30 TON.</li>
+                                                <li>Mesa de  50” X 72”</li>  
+                                                <li>Espesor máximo de  0.187”.</li>
+                                                <li>Precisión de  0.001”  Agujero - Agujero.</li>
+                                                <li>Velocidad de mesa a  2.150 IPM.</li>
+                                                <li>Torreta de 58 estaciones con 2 Autoindex.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><b>PUNZONADORA AMADA COMA 567 CON AUTOINDEX</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>Capacidad de punzonado, 50 TON.</li>
+                                                <li>Mesa de 1830 mm x 1830 mm.</li>                                                 <li>    Espesor máximo de  0.187”.</li>
+                                                <li>Precisión de 0.001”  Agujero - Agujero..</li>
+                                                <li>Velocidad de mesa a 2.150 IPM.</li>
+                                                <li>Torreta de 58 estaciones con 2 Autoindex.</li>
+                                            </ul>
+                                        </td>
+                                        <td><a href="punzonado_04.jpg"><img src="punzonado_04.jpg" width="300"></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            <h5>Productos</h5><br>
+                            <a href="PunzonadoCNC-6.png"><img data-content="prod1" src="PunzonadoCNC-6.png" width="100" height="100" /></a>
+                            <a href="PunzonadoCNC-7.png"><img data-content="prod1" src="PunzonadoCNC-7.png" width="100" height="100" /></a>
+                            <a href="PunzonadoCNC-8.png"><img data-content="prod1" src="PunzonadoCNC-8.png" width="100" height="100" /></a>
+                        </div>
+                        <!--      END  PUNZONADO          -->
+                        <div class="thumbs hide">
+                            <h5>Acabado</h5>
+                            <table cellspacing="0" cellpadding="0" class="striped">
+                                <tbody><tr>
+                                        <td><a href="001.Electrostatica.jpg"><img src="001.Electrostatica.jpg" width="300"></a></td>
+                                        <td>Contamos con una línea de pintura por electrodepositación (pintura en polvo), en ambas plantas ya que muchos de los productos de nuestros actuales clientes llevan este tipo de acabado.
+                                            Con esta actividad mejoramos nuestros tiempos de respuesta para nuestros clientes actuales. Además de dar servicio a todas las empresas que lo requieran.</td>
+                                    </tr><tr>
+                                        <td><a href="002.Electrostatica.jpg"><img src="002.Electrostatica.jpg" width="300"></a></td>
+                                        <td><a href="003.Electrostatica.jpg"><img src="003.Electrostatica.jpg" width="300"></a></td>
+                                    </tr><tr>
+                                        <td><h5>Galvanoplastías</h5></td>
+                                    </tr><tr>
+                                        <td><a href="001.galvanoplastias.jpg"><img src="001.galvanoplastias.jpg" width="300"></a></td>
+                                        <td>
+                                            <ul>
+                                                <li>Zinc - plate.</li> 
+                                                <li>Plateados.</li> 
+                                                <li>Galvanizados en frío y en caliente.</li> 
+                                                <li>Tropicalizados.</li> 
+                                                <li>Pasivados.</li> 
+                                                <li>Anodizados.</li>
+                                                <li>etc.</li>    
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="002.galvanoplastias.jpg"><img src="002.galvanoplastias.jpg" width="300"></a></td>
+                                        <td><a href="003.Galvanoplastias.jpg"><img src="003.Galvanoplastias.jpg" width="300"></a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="thumbs hide">
+                            <h5>Troquelado</h5>
+                            <p>Capacidad de troquelado desde 35 a 250 TON.</p>
+                            <a href="001.troquelado.gif"><img src="001.troquelado.gif" width="400"><br><br></a>
+                            <a href="002.troquelado.jpg"><img src="002.troquelado.jpg" width="250" height="150"></a>
+                            <p>Contamos con la capacidad de fabricar nuestros propios herramentales</p>
+                            <a href="003.troquelado.jpg"><img data-content="prod1" src="003.troquelado.jpg" width="100" height="100" /></a>
+                            <a href="004.troquelado.jpg"><img data-content="prod1" src="004.troquelado.jpg" width="100" height="100" /></a>
+                            <a href="005.troquelado.jpg"><img data-content="prod1" src="005.troquelado.jpg" width="100" height="100" /></a>
+                        </div>
+                        <div class="thumbs hide">
+                            <h5>Ensamblado</h5>
+                            <p>Contamos con un variado número de ensambles que van desde pequeños hasta grandes y de pequeña y gran dificultad.</p>
+                            <a href="001.ensamble.jpg"><img src="001.ensamble.jpg" width="300" height="400"></a><br><br>
+                            <a href="002.ensamble.jpg"><img src="002.ensamble.jpg" width="300" height="400"></a><br>
+                            <p>Para ensambles contamos con equipo para incertar PEMS y Riveteadora.</p>
+                            <h5>Insertadora de PEMS</h5> 
+                            <a href="003.ensamble.jpg"><img src="003.ensamble.jpg" width="300" height="150"></a>
+                            <h5>Riveteadora</h5> 
+                            <a href="004.ensamble.jpg"><img src="004.ensamble.jpg" width="300" height="150"></a>
+                        </div>
+                        <div class="thumbs hide">
+                            <h5>Maquinado Convencional</h5>
+                            <a href="001.maquinado.jpg"><img data-content="prod1" src="001.maquinado.jpg" width="100" height="100" /></a>
+                            <a href="002.maquinado.jpg"><img data-content="prod1" src="002.maquinado.jpg" width="100" height="100" /></a>
+                            <a href="003.maquinado.jpg"><img data-content="prod1" src="003.maquinado.jpg" width="100" height="100" /></a>
+                            <h5>Torno CNC y Centro Maquinado CNC</h5>
+                            <a href="004.maquinado.jpg">    <img data-content="prod1" src="004.maquinado.jpg" width="100" height="100" /></a>
+                            <a href="005.maquinado.jpg"><img data-content="prod1" 
+                            src="005.maquinado.jpg" width="100" height="100" /></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="footer">
+                Callejón José Ma. Chávez 2552 Int. 202 Colonia Ciudad Industrial, 
+                Aguascalientes, México. Código Postal: 20290 <i class=" icon-envelope"></i>
+                <img src="email.jpg"/>
+                <a id="link-top" href="servicios.html#top-of-page">Top</a>
+                    <br/><a class='mekamatiks' href ='http://www.mekamatiks.com'>mekamatiks 2013</a>
+            </div>
+        </div><!-- END WRAP -->
+    </body>
+</html>

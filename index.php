@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="kickstart.js"></script> <!-- KICKSTART -->
+        <link rel="stylesheet" href="kickstart.css" media="all" /> <!-- KICKSTART -->
+        <link rel="stylesheet" href="style.css" media="all" /> 
+        <title>Complejo Industrial Estrada</title>
+        <!--        <link rel="stylesheet" type="text/css" href="css/style.css">-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <!-- bxSlider Javascript file -->
+        <script src="jquery.bxslider.min.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="jquery.bxslider.css" rel="stylesheet" />
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.bxslider').bxSlider({
+                    slideMargin: 10,
+                    ticker: true,
+                    tickerHover: true,
+                    speed: 100000,
+                    useCSS: false,
+                    captions: true
+                });
+            });
+        </script>
+    </head>
+    <body><a id="top-of-page"></a> <div id="wrap" class="clearfix">
+            <ul class="bxslider">
+                <li><img src="cabecera.jpg" alt="Css Template Preview" title="INSTALACIONES" height="100"  /></a></li>
+                <li><a href="productos.html"><img src="sliderhome/image058.gif" alt="Css Template Preview" title="PRODUCTOS" height="100"/></a></li>
+                <li><a href="http://www.protecva.com"><img src="LogoTECVA.png" alt="Css Template Preview" title="PROTECVA" height="100"/></a></li>
+                <li><a href="mision.html"><img src="sloganCIE.png" alt="Css Template Preview" title="NOSOTROS" height="100"/></a></li>
+            </ul>
+            <!-- NOMBREEMPRESA -->
+            <div class="col_12">
+                <div class="headline">
+                    <h4 class='center'>
+                        <img class="align-left" src="ISO.png" width="100" height="100" />
+                        <img class="align-right" src="CIE.png" width="200" height="100" />
+                        <br>
+                        Complejo Industrial Estrada S.A. de C.V.
+                    </h4>
+                </div>
+            </div>
+            <!-- END NOMBREEMPRESA  --> 
+
+
+            <!-- Menu Horizontal -->
+            <ul class="menu center">
+                    <li class="current"><a href="index.php">Home</a></li>
+                    <li><a href="certificacion.html">Certificación</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+
+                <!--    <ul>
+                        <li><a href="">Instalaciones</a></li>
+                        <li><a href="">Corte Láser</a></li>
+                        <li><a href="">Troquelado</a></li>
+                        </ul> -->
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
+                    <li><a href="bolsa.php">Bolsa de Trabajo</a></li>
+            </ul>
+            <!-- END Menu Horizontal -->
+
+             <div class="col_12 center">
+                <h3 class="h3 center">¡MANUFACTURANDO SUS IDEAS!</h3>
+                    <h5 class="center">
+                        <i class="icon-phone"> (449) 971-12-33</i><br>
+                        <i class="icon-phone"> (449) 971-19-59</i><br>
+                        VENTAS Ext 107 y 104
+                    </h5>
+                <blockquote class="small">
+                    En <em>Complejo Industrial Estrada</em> es un placer atenderle, gracias por dejarnos ser parte de su éxito.
+                    comprometidos en ofrecerles soluciones con calidad y servicios
+                </blockquote>
+
+            </div>
+            <div class="col_12 center ">
+
+                <div class="8 icon-2x">
+                    <a href="productos.html" class="center"><button class="red large center"><i class="icon-barcode"></i> Productos</button></a>
+                    <a href="servicios.html" class="center"><button class="red large center"><i class="icon-ok"></i> Servicios</button></a>
+                </div>
+                <div class="4"></div>
+                <br>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+
+            <div class="col_12">
+                <div class="col_4">
+                    <h5 class="center">Nuestra Empresa</h5>
+                    <ul class="menu vertical center">
+                        <li><a href="mision.html">Misión</a></li>
+                        <li><a href="vision.html">Visión</a></li>
+                        <li><a href="politica.html">Política</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                    </ul>
+
+                </div>
+
+
+                <!-- Slideshow -->
+                <div class="col_4">
+                            <ul class="slideshow">
+<!--                        <li><img src="img/sliderhome/image022.jpg" width="220" height="200"/></li>-->
+                        <li><img src="sliderhome/image024.jpg" width="220" height="200"/></li>
+                        <li><img src="sliderhome/image028.jpg" width="220" height="200"/></li>
+                        <li><img src="sliderhome/image035.jpg" width="220" height="200"/></li>
+<!--                        <li><img src="img/sliderhome/image036.jpg" width="220" height="200"/></li>
+                        <li><img src="img/sliderhome/image039.jpg" width="220" height="200"/></li>-->
+                        <li><img src="sliderhome/image048.jpg" width="220" height="200"/></li>
+                        <li><img src="sliderhome/image058.gif" width="220" height="200"/></li> 
+                        <li><img src="sliderhome/image093.jpg" width="220" height="200"/></li>
+<!--                        <li><img src="img/sliderhome/image069.jpg" width="220" height="200"/></li>-->
+                           </ul>
+                    <br>
+                </div>
+                <!-- END SLIDESHOW -->
+
+                <!-- SLIDESHOW PARAGRAPH -->
+                <div class="col_4 center">
+                        <h4>¡Bienvenido!</h4>
+                        <p>Si requiere asesoría, o apoyo con un diseño no dude en contactarnos</p>
+                        <a href="contacto.php"><button class="red">Asesoría</button></a>
+                    <a href="cotizar.php"><button class="red">Cotizar</button></a>
+                                    <h5 class="center">
+                </div>
+                <!-- END SLIDESHOW PARAGRAPH -->
+            </div>
+            <br>       
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="center"><i class="red icon-user"></i>  Número de visitantes: 3064</div>
+            <br>
+            <br>
+            <div class="clear"></div>
+
+            <div id="footer">
+                Callejón José Ma. Chávez 2552 Int. 202 Colonia Ciudad Industrial, 
+                Aguascalientes, México. Código Postal: 20290 <i class="icon-envelope"></i>
+                <img id="email" src="email.jpg"/> 
+                <a id="link-top" href="index.php#top-of-page">Top</a><br>
+                <a class='mekamatiks' href ='http://www.mekamatiks.com'>mekamatiks 2013</a>
+            </div>
+
+        </div><!-- END WRAP -->
+    </body>
+</html> 
